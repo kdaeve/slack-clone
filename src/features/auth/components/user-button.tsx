@@ -1,6 +1,7 @@
 "use client";
 import { Loader, LogOut } from "lucide-react";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { useRouter } from "next/navigation";
 
 import {
   DropdownMenu,
@@ -12,8 +13,15 @@ import { useCurrentUser } from "../api/use-current-user";
 import { useAuthActions } from "@convex-dev/auth/react";
 
 export const UserButton = () => {
+  const router = useRouter();
   const { signOut } = useAuthActions();
   const { data, isLoading } = useCurrentUser();
+
+  const handleSignOut = () => {
+    signOut().then(() => {
+      window.location.href = "/";
+    });
+  };
 
   if (isLoading) {
     return <Loader className="size-4 animate-spin text-muted-foreground" />;
@@ -38,7 +46,7 @@ export const UserButton = () => {
         </Avatar>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="center" side="right" className="w-60">
-        <DropdownMenuItem onClick={() => signOut()} className="h-10">
+        <DropdownMenuItem onClick={handleSignOut} className="h-10">
           <LogOut className="size-4 mr-2" />
           Log Out
         </DropdownMenuItem>
