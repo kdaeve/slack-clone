@@ -185,7 +185,7 @@ For more detailed documentation, please refer to our [User Guide](https://github
     - [x] Create workspace
     - [x] Delete workspace
     - [x] Update workspace
-    - [ ] Channel creation
+    - [x] Channel creation
     - [ ] User invitations
 
 
@@ -209,7 +209,7 @@ For more detailed documentation, please refer to our [User Guide](https://github
     - [x] Implement workspace header
     - [x] Configure workspace preferences
     - [x] Handle channels & members
-    - [ ] Create channel
+    - [x] Create channel
     - [ ] Implement user invitations
 
 See the [open issues](https://github.com/kdaeve/slack-clone/issues) for a full list of proposed features (and known issues).
