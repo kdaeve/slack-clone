@@ -14,6 +14,31 @@
 [![project_license][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-me--this-project">About Me & This Project</a>
+      <ul>
+        <li><a href="#key-features-implemented">Key Features Implemented</a></li>
+      </ul>
+    </li>
+    <li><a href="#technologies-used">Technologies Used</a></li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#roadmap">Roadmap</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
 
 
 <!-- PROJECT LOGO -->
@@ -23,12 +48,12 @@
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Slack Clone</h3>
+<h3 align="center">Slack Clone - Portfolio Project</h3>
 
   <p align="center">
-    Slack Clone with Next.js, Convex, Tailwind, Lucide, Shadcn/UI, and more.
+    A full-stack Slack clone demonstrating my skills with modern web technologies
     <br />
-    <a href="https://github.com/kdaeve/slack-clone"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/kdaeve/slack-clone"><strong>Explore the code »</strong></a>
     <br />
     <br />
     <a href="https://github.com/kdaeve/slack-clone">View Demo</a>
@@ -39,49 +64,24 @@
   </p>
 </div>
 
+## About Me & This Project
 
+Hi, I'm Taylor! This project is part of my portfolio to demonstrate my full-stack development skills. I chose to build a Slack clone because it allows me to showcase:
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#features">Features</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
+- Real-time communication features
+- Complex state management
+- Modern UI/UX design principles
+- Scalable backend architecture
 
+### Key Features Implemented
 
+<!-- - Real-time messaging with Convex -->
+- Authentication with multiple providers
+- Workspace and channel management
+- Responsive UI with Tailwind CSS
+- Modern component library with Shadcn/UI
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-
-TBD
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-### Built With
+## Technologies Used
 
 * [![Next][Next.js]][Next-url]
 * [![React][React.js]][React-url]
@@ -90,186 +90,80 @@ TBD
 * [![Lucide][Lucide.com]][Lucide-url]
 * [![Shadcn][Shadcn.com]][Shadcn-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running, follow these simple steps.
+To get a local copy up and running:
 
 ### Prerequisites
-
-Before you begin, ensure you have the following installed:
-* Node.js (v18 or higher)
-* npm (v9 or higher) or yarn
-* Git
+- Node.js (v18 or higher)
+- npm (v9 or higher) or yarn
+- Git
 
 ### Installation
-
-1. Clone the repository
-   ```sh
-   git clone https://github.com/kdaeve/slack-clone.git
-   ```
-2. Navigate to the project directory
-   ```sh
-   cd slack-clone
-   ```
-3. Install dependencies
-   ```sh
-   npm install
-   # or
-   yarn install
-   ```
-4. Set up environment variables
-   - Create a `.env.local` file in the root directory
-   - Add your environment variables (refer to `.env.example` for required variables)
-   
-5. Run the development server
-   ```sh
-   npm run dev
-   # or
-   yarn dev
-   ```
-6. Open your browser and visit `http://localhost:3000`
-
-### Deployment
-
-To build and start the production server:
 ```sh
-npm run build
-npm run start
-# or
-yarn build
-yarn start
+git clone https://github.com/kdaeve/slack-clone.git
+cd slack-clone
+npm install
 ```
 
-For more information about deployment options, refer to the [Next.js deployment documentation](https://nextjs.org/docs/deployment).
+Set up environment variables in `.env.local` (refer to `.env.example`)
+
+Run the development server:
+```sh
+npm run dev
+```
+
+Visit `http://localhost:3000` in your browser.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-### Basic Navigation
-1. **Authentication**: Sign in using Google, GitHub, or email credentials
-2. **Workspace Management**:
-   - Create new workspaces for different teams or projects
-   - Manage workspace members and permissions
-   - Customize workspace preferences
-3. **Channels & Communication**:
-   - Create channels for different topics or teams
-   - Send messages and share files
-   - Mention users with @username
-
-### Screenshots
-![Workspace View](images/workspace-screenshot.png)
-![Channel View](images/channel-screenshot.png)
-
-
-For more detailed documentation, please refer to our [User Guide](https://github.com/kdaeve/slack-clone/wiki/User-Guide).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-<!-- FEATURES -->
 ## Features
-- [x] Authentication
-    - [x] Google login
-    - [x] GitHub login
-    - [x] Email login
-- [x] Workspace management
-    - [x] Create workspace
-    - [x] Delete workspace
-    - [x] Update workspace
-    - [x] Channel creation
-    - [x] User invitations
 
+### Core Functionality
+- Real-time messaging with message history
+- Workspace and channel management
+- User authentication and authorization
+- Responsive and accessible UI
 
-<!-- ROADMAP -->
+### Technical Highlights
+- Optimistic UI updates
+- Type-safe API with Convex
+- Modern component architecture
+- Efficient state management
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 ## Roadmap
 
-- [x] Implement authentication UI
-- [x] Develop authentication logic
-    - [x] Google login
-    - [x] GitHub login
-    - [x] Email login
-- [x] Create user button component
-- [x] Build workspace creation
-  
-- [x] Develop components
-   - [x] Toolbar
-   - [x] Sidebar
+### Completed Features
+- [x] Real-time messaging system
+- [x] Workspace management
+- [x] Channel creation and management
+- [x] User authentication
 
-- [x] Workspace features
-    - [x] Manage workspace members
-    - [x] Implement workspace header
-    - [x] Configure workspace preferences
-    - [x] Handle channels & members
-    - [x] Create channel
-    - [x] Implement user invitations by join code
-
-See the [open issues](https://github.com/kdaeve/slack-clone/issues) for a full list of proposed features (and known issues).
+### Future Considerations
+- [ ] Advanced search functionality
+- [ ] Message threading
+- [ ] File sharing
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
-<!-- CONTRIBUTING -->
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+While this is primarily a personal project, I welcome feedback and suggestions! If you'd like to contribute:
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+1. Open an issue to discuss your idea
+2. Fork the repository
+3. Create a feature branch
+4. Submit a pull request
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Top contributors:
-
-<a href="https://github.com/kdaeve/slack-clone/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=kdaeve/slack-clone" alt="contrib.rocks image" />
-</a>
-
-
-
-<!-- LICENSE -->
-## License
-
-TBD
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- CONTACT -->
 ## Contact
+
+Let's connect! I'm always open to discussing new opportunities and collaborations.
 
 Taylor Wu - [@X](https://x.com/KDA__Akali) - email@email_client.com
 
 Project Link: [https://github.com/kdaeve/slack-clone](https://github.com/kdaeve/slack-clone)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-* []()
-* []()
-* []()
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
