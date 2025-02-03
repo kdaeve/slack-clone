@@ -136,10 +136,12 @@ Visit `http://localhost:3000` in your browser.
 ## Roadmap
 
 ### Completed Features
-- [x] Real-time messaging system
+- [x] User authentication
 - [x] Workspace management
 - [x] Channel creation and management
-- [x] User authentication
+- [x] Invite / Join workspace
+<!-- - [x] Real-time messaging system -->
+
 
 ### Future Considerations
 - [ ] Advanced search functionality
