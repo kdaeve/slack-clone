@@ -66,7 +66,7 @@
 
 ## About Me & This Project
 
-Hi, I'm Taylor! This project is part of my portfolio to demonstrate my full-stack development skills. I chose to build a Slack clone because it allows me to showcase:
+Hi, I'm Yuntian! This project is part of my portfolio to demonstrate my full-stack development skills. I chose to build a Slack clone because it allows me to showcase:
 
 - Real-time communication features
 - Complex state management
@@ -163,7 +163,7 @@ While this is primarily a personal project, I welcome feedback and suggestions! 
 
 Let's connect! I'm always open to discussing new opportunities and collaborations.
 
-Taylor Wu - [@X](https://x.com/KDA__Akali) - email@email_client.com
+Yuntian Wu - [@X](https://x.com/KDA__Akali) - email@email_client.com
 
 Project Link: [https://github.com/kdaeve/slack-clone](https://github.com/kdaeve/slack-clone)
 
